@@ -10,8 +10,8 @@ services:
       - "./conf.d:/etc/mrtg/conf.d"
       - "./html:/mrtg/html"
     environment:
-        TZ: "Brazil/East"
-        HOSTS: 'public:192.168.0.123'
+        TZ: "Australia/Victoria"
+        HOSTS: 'public:202.144.175.136'
         USERID: 100
         GROUPID: 101
         REGENERATEHTML: "yes"
